@@ -1,0 +1,79 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Nerko+One&family=Righteous&family=Rubik+Mono+One&family=Secular+One&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+nav {
+    background-color: white;
+}
+.navbar {
+    font-size: 20px;
+}
+
+.navbar-brand {
+    box-shadow: 5px 3px 50px 1px  #72D1CD;
+}
+
+.navbar-nav li a {
+    color: #72D1CD;
+}
+
+.btn {
+    background-color: #72D1CD;
+    width: 85px;
+    height: 35px;
+}
+
+.btn:hover{
+    background-color: #071037;
+}
+
+.card {
+    border: 1px black solid;
+}
+
+.button {
+	background-color: #e7e7e7;
+	border: 2px solid transparent;
+	border-radius: 8px;
+	color: black;
+	padding: 8px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 1rem;
+	font-family: 'Caveat', cursive;
+}
+
+.button:hover {
+	opacity: 0.8;
+}
+
+.button:active {
+	border: 2px solid rgba(0, 0, 0, 0.5);
+}
+
+.button-success {
+	background-color: #4caf50;
+	color: white;
+}
+.button-primary {
+	background-color: #008cba;
+	color: white;
+}
+.button-danger {
+	background-color: #f44336;
+	color: white;
+}
+
+.button-small {
+	font-size: 0.7rem;
+}
+
+td {
+    text-align: center;
+}

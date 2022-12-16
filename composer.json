@@ -1,0 +1,17 @@
+{
+    "name": "back-end/mini-framework",
+    "description": "PHP",
+    "type": "project",
+    "authors": [
+        {
+            "name": "sitinurelysaa",
+            "email": "sitinurelysaa@gmail.com"
+
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "OOP\\App\\" : "App"
+        }
+    }
+}
